@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\productdetails.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Jost|Montserrat|Josefin Sans"/>
+    <title>Document</title>
+</head>
+<body background="images/apr.png">
+    <div class="pdiv">
+        <h1><%= varchnaav4 %></h1>
+        <div class="scrolldiv">
+            <% for(var i=0; i<alldocs.length; i++){ %>
+                <div class="onecard" style="display:flex">
+                    <img src="<%= alldocs[i][5] %>" alt="" height="140px" width="140px" style="border: 1.5px solid #28961e;border-radius: 7px;margin-top: 20px;margin-right: 20px;">
+                    <div>
+                        <p style="font-family:'Montserrat';font-size: 0.8rem; margin-bottom:-4px;"><strong>Product name: </strong><%= alldocs[i][0] %></p>
+                        <p style="font-family:'Montserrat';font-size: 0.8rem; margin-bottom:-4px;"><strong>Price: </strong><%= alldocs[i][1] %></p>
+                        <p style="font-family:'Montserrat';font-size: 0.8rem; margin-bottom:-4px;"><strong>Quantity: </strong>+91 <%= alldocs[i][2] %></p>
+                        <p style="font-family:'Montserrat';font-size: 0.8rem; margin-bottom:-4px;"><strong>Category: </strong><%= alldocs[i][3] %></p>
+                        <p style="font-family:'Montserrat';font-size: 0.8rem; margin-bottom:18px;"><strong>Subcategory: </strong><%= alldocs[i][4] %></p>    
+                    </div>
+                </div>
+            <% } %>
+        </div>
+    </div>
+
+    
+
+    <script src="js\adminjs.js"></script>
+    <script src="https://kit.fontawesome.com/897232bf16.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

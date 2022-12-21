@@ -1,0 +1,89 @@
+body {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html{
+    font-size: 20px;
+  }
+.billdiv{
+    display: block;
+    /* display: none; */
+    position: absolute;
+    left: 50%;
+    top:30px;
+    transform: translate(-50%);
+    height: 950px;
+    width: 700px;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+}
+p{
+    font-family: "Montserrat";
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.8rem;
+}
+h4{
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-size: 0.8rem;
+}
+.billfrom{
+    position: absolute;
+    top:40px;
+    left:40px;
+}
+#logo1 {
+    font-size: 3.4rem;
+    height: 100%;
+    background: linear-gradient(45deg, #005560, #017180, #01899b, #01899b, #12a2b5, #12a2b5, #12adc1, #12adc1, #12adc1, #12adc1, #ffd753, #ffd753, #fdd037);
+    /* background-clip: text; */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins";
+}
+.billto{
+    position: absolute;
+    top:250px;
+    left:40px;
+}
+th{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nome{
+    position: absolute;
+    top:740px;
+    left:40px;
+}
+button{
+    color:white;
+    font-family:"Montserrat";
+    text-align: center;
+    margin: 1.5rem auto 0 auto;
+    padding: 15px 20px 12px 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width:300px;
+    height:60px;
+    cursor: pointer;
+    border:1.7px solid #9eb528;
+    background-color:#9eb528;
+    outline:none;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover{
+    background:white;
+    color:#9eb528;
+}
+
+table, th, td {
+    border: 1px solid #315721;
+    border-collapse: collapse;
+}

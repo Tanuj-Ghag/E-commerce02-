@@ -1,0 +1,1045 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+html{
+  font-size: 20px;
+}
+
+#logo1 {
+    font-size: 2.4rem;
+    height: 100%;
+    background: linear-gradient(45deg, #005560, #005560, #017180, #01899b, #01899b, #12a2b5, #12a2b5, #12adc1, #12adc1, #12adc1, #12adc1, #ffd753, #ffd753, #fdd037);
+    /* background-clip: text; */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+.material-icons.md-9.locs {
+    font-size: 1rem;
+}
+#del_time {
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+#del_loc {
+    margin-top: -3px;
+    text-indent: 4px;
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    color: black;
+}
+.searchw {
+  width:370px;
+}
+.search-box1 {
+    width:80%;
+    font-size: 0.9rem;
+    height:40px;
+    padding:10px;
+    border:2px solid #12a2b5;
+    background:none;
+    outline:none;
+    text-transform: capitalize;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.search-box::placeholder{
+    color: rgb(142, 140, 140);
+    font-weight: lighter;
+}
+.search-btn1 {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+    width:20%;
+    height:40px;
+    padding:7px 20px 20px 20px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+    border-color: #12a2b5;
+    background-color: #12a2b5;
+    color:white;
+}
+.search-btn1:hover{
+    background-color: #14afc3;
+}
+#loginbut {
+    width:80px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    height:62px;
+    border-radius: 10px;
+    border:2px solid #12a2b5;
+    background:none;
+    outline:none;
+}
+#cartbut {
+    height:62px;
+    width:90px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    border-radius: 10px;
+    border:1.3px solid #12a2b5;
+    background-color:#12a2b5;
+    outline:none;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.prof {
+    color: #12a2b5;
+    margin-top: -8px;
+}
+.prof2 {
+    color: white;
+    margin-top: -8px;
+}
+.material-icons.md-7 {
+    margin-top: 3px;
+    color: #12a2b5;
+}
+.material-icons.md-6 {
+    margin-top: 3px;
+    color: white;
+}
+
+.offerc {
+  margin:auto;
+  width: 100%;
+  height:400px;
+}
+
+.card:hover,
+.hoverbrand:hover {
+  transform: scale(1.03);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.paathi,
+.pudhe {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  opacity: 90%;
+  background-color: #017180;
+  padding: 6px;
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.card {
+  border: 1px solid #12a2b5;
+  margin: 0 0.5em;
+  box-shadow: 1px 2px 10px 0 rgba(22, 22, 26, 0.18);
+  border-radius: 3%;
+}
+.cicss {
+  padding: 1em;
+}
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.bestsellersheading {
+  font-family:  "Montserrat";
+}
+
+.grid-item{
+  background-color: #2196F3;
+}
+.card-title{
+  font-family: "Montserrat";
+  margin-top: 10px;
+}
+.atcb{
+  border:1.3px solid #12a2b5;
+  background-color:#12a2b5;
+  color: white;
+  border-radius: 9px;
+}
+.atcb:hover{
+  border:2.3px solid #12a2b5;
+  background-color:white;
+  color: #017180;
+}
+
+.grid-container {
+  display: grid;
+  row-gap: 20px;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+.catcard {
+  box-shadow: 1px 2px 10px 0 rgba(22, 22, 26, 0.18);
+  background-color: white;
+  width:140px;
+  height:170px;
+  border:1.3px solid #12a2b5;
+  border-radius: 4px;
+}
+.catcard:hover{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.05);
+}
+
+.catimg{
+  margin-top:10px;
+  margin-bottom:4px;
+  border-radius:8%;
+}
+.catp{
+  font-size:0.9rem;
+}
+
+.bigcard{
+  border-radius: 0 10px 10px 0;
+  margin-left: -10px;
+}
+.bigcardtext{
+  padding: 0;
+  margin: 17px 0px 20px 10px;
+  font-size: 1.1rem;
+}
+
+.smallcard{
+  border-radius: 0 5px 5px 0;
+  margin-left: -10px;
+}
+.smallcardtext{
+  padding: 0;
+  margin: 8px 0px 10px 5px;
+  font-size: 0.8rem;
+}
+.loginwindow .cross{
+  position: absolute;
+  left: 320px;
+  top: 10px;
+  cursor: pointer;
+}
+.cross3{
+  position: absolute;
+  left: 320px;
+  top: 10px;
+  cursor: pointer;
+}
+.cross4{
+  position: absolute;
+  left: 318px;
+  top: 10px;
+  cursor: pointer;
+  color: #017180;
+}
+
+div.loginwindow {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  box-shadow: 5px 5px 25px black;
+}
+
+h1.loghead {
+  position: absolute;
+  left: 105px;
+  top: 33px;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  font-size: 57px;
+  color: #017180;
+}
+p.usname {
+  position: absolute;
+  left: 54px;
+  top: 115px;
+  font-family: "Josefin Sans";
+  font-size: 0.9rem;
+  cursor: default;
+  color:#017180;
+}
+
+#uname {
+  position: absolute;
+  left: 50px;
+  top: 140px;
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+p.psname {
+  position: absolute;
+  left: 54px;
+  top: 205px;
+  font-family: "Josefin Sans";
+  font-size: 0.9rem;
+  cursor: default;
+  color:#017180;
+}
+
+#pname {
+  position: absolute;
+  left: 50px;
+  top: 230px;
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+.Signin {
+  position: absolute;
+  top: 300px;
+  left: 115px;
+  width: 120px;
+  background-color: white;
+  color: #017180;
+  border: 2px solid #017180;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Josefin Sans";
+}
+.Signin2 {
+  position: absolute;
+  top: 275px;
+  left: 115px;
+  width: 120px;
+  background-color: white;
+  color: #017180;
+  border: 2px solid #017180;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Josefin Sans";
+}
+
+.Signin2:hover {
+  background-color: #017180;
+  color: white;
+}
+.Signin:hover {
+  background-color: #017180;
+  color: white;
+}
+div.regwindow {
+  display:none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  height: 400px;
+  width: 650px;
+  background-color: white;
+  box-shadow: 5px 5px 25px black;
+}
+
+h1.reghead {
+  position: absolute;
+  left: 223px;
+  top: 21px;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  font-size: 57px;
+  color: #005560;
+}
+
+p.rname {
+  position: absolute;
+  left: 54px;
+  top: 100px;
+  font-family: "Josefin Sans";
+  font-size: 0.8rem;
+  cursor: default;
+  color: #017180;
+}
+
+#name {
+  position: absolute;
+  left: 45px;
+  top: 120px;
+  padding: 6px;
+  width: 220px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+p.usrname {
+  position: absolute;
+  left: 54px;
+  top: 168px;
+  font-family: "Josefin Sans";
+  font-size: 0.8rem;
+  cursor: default;
+  color: #017180;
+}
+
+#urname {
+  position: absolute;
+  left: 45px;
+  top: 188px;
+  padding: 6px;
+  width: 220px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+p.psrname {
+  position: absolute;
+  left: 54px;
+  top: 236px;
+  font-family: "Josefin Sans";
+  font-size: 0.8rem;
+  cursor: default;
+  color: #017180;
+}
+
+#prword {
+  position: absolute;
+  left: 45px;
+  top: 256px;
+  padding: 6px;
+  width: 220px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+p.psname2 {
+  position: absolute;
+  left: 54px;
+  top: 304px;
+  font-family: "Josefin Sans";
+  font-size: 0.8rem;
+  cursor: default;
+  color: #017180;
+}
+
+#pword2 {
+  position: absolute;
+  left: 45px;
+  top: 324px;
+  padding: 6px;
+  width: 220px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+p.email {
+  position: absolute;
+  left: 385px;
+  top: 100px;
+  font-family: "Josefin Sans";
+  font-size: 0.8rem;
+  cursor: default;
+  color: #017180;
+}
+
+#emaila {
+  position: absolute;
+  left: 376px;
+  top: 120px;
+  padding: 6px;
+  width: 220px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+p.dob {
+  position: absolute;
+  left: 385px;
+  top: 168px;
+  font-family: "Josefin Sans";
+  font-size: 0.8rem;
+  cursor: default;
+  color: #017180;
+}
+
+#doba {
+  position: absolute;
+  left: 376px;
+  top: 188px;
+  padding: 6px;
+  width: 220px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  text-align: center;
+  background-color:#017180;
+  color: white;
+  border: 1px solid #017180;
+}
+
+#dobab {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 35px;
+  border-radius: 3px;
+  height: 450px;
+  width: 250px;
+  background-color: white;
+  box-shadow: 5px 5px 25px black;
+  z-index: 1000;
+}
+#addentered{
+  margin-top: 15px;
+  margin-left: 40px;
+  border: 1px solid #017180;
+  border-radius: 3px;
+  background-color:white;
+  color: #017180;
+}
+
+.addp{
+  font-family: "Josefin Sans";
+  font-size: 0.8rem;
+  margin-bottom: -10px;
+  cursor: default;
+  color: #017180;
+}
+.addi{
+  height: 30px;
+  margin-bottom: 10px;
+  font-family: "Josefin Sans";
+  font-size: 0.8rem;
+}
+p.gender {
+  position: absolute;
+  left: 385px;
+  top: 240px;
+  font-family: "Josefin Sans";
+  font-size: 0.8rem;
+  cursor: default;
+  color: #017180;
+}
+
+#malea {
+  position: absolute;
+  left: 376px;
+  top: 268px;
+}
+label.male1 {
+  position: absolute;
+  left: 398px;
+  top: 265px;
+  font-family: "Josefin Sans";
+  font-size: 0.8rem;
+  color: #017180;
+}
+
+#femalea {
+  position: absolute;
+  left: 456px;
+  top: 268px;
+}
+label.female1 {
+  position: absolute;
+  left: 478px;
+  top: 265px;
+  font-family: "Josefin Sans";
+  font-size: 0.8rem;
+  color: #017180;
+}
+
+#othera {
+  position: absolute;
+  left: 549px;
+  top: 268px;
+  background-color: lightgray;
+  border-radius: 50%;
+}
+label.other1 {
+  position: absolute;
+  left: 570px;
+  top: 265px;
+  font-family: "Josefin Sans";
+  font-size: 0.8rem;
+  color: #017180;
+}
+
+.Submit{
+  position: absolute;
+  top: 310px;
+  left: 390px;
+  width: 170px;
+  background-color: white;
+  color: #017180;
+  border: 2px solid #017180;
+  border-radius: 8px;
+  padding: 10px 20px;
+  padding-top: 13px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Josefin Sans";
+}
+
+.Submit:hover {
+  background-color: #017180;
+  color: white;
+}
+
+#midline {
+  position: absolute;
+  top: 110px;
+  left: 330px;
+  background-color: #017180;
+  border: 0.1px solid #017180;
+  height: 200px;
+}
+
+.cross2 {
+  position: absolute;
+  top: 10px;
+  left: 620px;
+  cursor: pointer;
+}
+.dontacc {
+  position: absolute;
+  top: 365px;
+  left:58px;
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-family: "Montserrat";
+}
+.cart_lan{
+  color:white;
+  cursor: pointer;
+  font-size:15px;
+  padding:20px;
+}
+.cart {
+  /* display: none; */
+  z-index: 2;
+  position:fixed;
+  top:10px;
+  right:-510px;
+  margin-right: 10px;
+  width:350px;
+  height: 492px;
+  padding:20px;
+  background: #f7feff;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
+  transition:0.3s;
+  overflow:scroll;
+}
+.cart::-webkit-scrollbar{
+  display: none;
+}
+.cart.active {
+  right:0;
+}
+.cart_content:last-child{
+  border-bottom:none;
+}
+.cart_box{
+  height: 100px;
+  width: 350px;
+  margin-left: -20px;
+  background: #e2fcff;
+  border-bottom: 1px solid gray;
+}
+.cart_img{
+  position: relative;
+  top:10px;
+  left:10px;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+.detail_box{
+  margin-top: 10px;
+  row-gap: 0.5rem;
+}
+.bordertop{
+  /* border-top: 1px solid gray; */
+  box-shadow: 0 -1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.borderniche{
+  border:none;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.cart_product_title{
+  width:235px;
+  height: 30px;
+  overflow:hidden;
+  position: relative;
+  top:-75px;
+  left:105px;
+  font-size: 0.9rem;
+  font-family: "Montserrat";
+}
+.cart_title {
+  font-family: "Jost";
+  font-size: 1.5rem;
+  font-weight: Bolder;
+  position: relative;
+  top:0px;
+  left:0px;
+  height:45px;
+
+  color:#026471;;
+}
+.cart_p{
+  display: flex;
+  width:100px;
+  height: 30px;
+  overflow:hidden;
+  position: relative;
+  top:-60px;
+  left:105px;
+  font-size: 0.9rem;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+.cart_quantity{
+  position: relative;
+  top:-152px;
+  left:180px;
+  border-radius:3px;
+  height: 1.2rem;
+  border:2px solid #017180;
+  outline-color: #017180;
+  width: 2.4rem;
+  text-align: center;
+  font-size: 0.95rem;
+  margin-top:62px;
+  margin-left:10px;
+}
+.cart_remove{
+  color:#017180;
+  position: relative;
+  top:-153px;
+  left:245px;
+}
+.cart_remove:hover{
+  color:#12adc1;
+}
+.total{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  border-bottom:solid #0494a7;
+  font-family: "Montserrat";
+  color:#026471;
+}
+.total_title{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.total_price {
+  margin-left: 0.5rem;
+}
+.buybtn{
+  color:white;
+  display: flex;
+  margin: 1.5rem auto 0 auto;
+  padding: 10px 20px 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border:1.3px solid #12a2b5;
+  background-color:#12a2b5;
+  outline:none;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.buybtn:hover{
+  background:white;
+  color:#12a2b5;
+}
+#close_cart{
+  position: absolute;
+  top:23px;
+  left:305px;
+  font-size: 1.4rem;
+  color:#017180;
+  cursor: pointer;
+}
+footer{
+  background-color:#017180;
+  height: 308px;
+}
+.footer-row{
+  width: 100%;
+  height:250px;
+  display: flex;
+  padding:20px 60px;
+}
+.footer-row2{
+  padding-top: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display:flex;
+  border-top:1px solid #454d53;
+  justify-content:space-evenly;
+}
+.footer-row2 p{
+  color:white;
+  cursor: pointer;
+}
+.footer-col-1{
+  width:15%;
+}
+.footer-col-2{
+  width:15%;
+}
+.footer-col-3{
+  width:15%;
+}
+.footer-col-4{
+  width:10%;
+}
+.footer-col-5{
+  font-size: 13px;
+  width:20%;
+  border-left:1px solid #454d53;
+  height: 120px;
+  padding-left:25px;
+}
+.footer-col-6{
+  font-size: 13px;
+  width:20%;
+  padding-left: 50px;
+}
+.footer-heading p{
+  color: yellow;
+  font-size: 15px;
+  font-weight:400;
+  text-align:left;
+  padding:10px 0px;
+  cursor:pointer;
+  text-transform: uppercase;
+}
+.footer-list a{
+  text-align:left;
+  padding:5px 0px;
+  display:block;
+  text-decoration: none;
+  text-transform: capitalize;
+  color:white;
+  font-size: 12px;
+  font-weight:400;
+}
+.footer-list p{
+  text-align:left;
+  display:block;
+  text-decoration: none;
+  text-transform: capitalize;
+  color:white;
+  font-size: 12px;
+  font-weight:400;
+}
+.footer-list a:hover{
+  text-decoration: underline;
+}
+.fa-shopping-bag, .fa-star, .fa-gift, .fa-question-circle {
+  color:yellow;
+  cursor:pointer;
+  padding-right:10px;
+  font-size: 15px;
+}
+
+div.paymentwindow{
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  height: 380px;
+  width: 350px;
+  background-color: #f7feff;
+  box-shadow: 5px 5px 25px black;
+}
+.paymenthead{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-weight: bolder;
+  color:#005560;
+}
+.amounttag{
+  font-size: 0.7rem;
+}
+.totalamount{
+  margin: auto;
+  padding-top: 13px;
+  height: 50px;
+  width: 300px;
+  background-color: #d7f7fb;
+  border:0.5px solid #85cdd6;
+  text-align:center;
+  border-radius: 10px;
+}
+.paymentmethodtag{
+  margin-top:20px;
+  text-align: center;
+  font-size: 0.7rem;
+  color:#01899b;
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+.pad1{
+  padding-right:5px;
+}
+.pay1{
+  display: inline;
+  margin: 0px 5px;
+  border:1.3px solid #017180;
+  background-color:white;
+  color: #017180;
+  border-radius: 5px;
+  padding:10px 12px;
+}
+.pay1:hover{
+  border:2.3px solid #017180;
+  background-color:#017180;
+  color: white;
+}
+.pey1{
+  margin-left: 25px;
+}
+.placebtn{
+  color:white;
+  display: flex;
+  margin: 1.5rem auto 0 auto;
+  padding: 10px 20px 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border:1.3px solid #12a2b5;
+  background-color:#12a2b5;
+  outline:none;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.placebtn:hover{
+  background:white;
+  color:#12a2b5;
+}
+
+.whousing{
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 7px;
+  height: 200px;
+  width: 350px;
+  background-color: white;
+  box-shadow: 5px 5px 25px black;
+  border:3.3px solid #12a2b5;
+}
+
+#cb{
+  color:white;
+  width:230px;
+  margin: 1.5rem auto 0 60px;
+  padding: 10px 20px 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border:1.3px solid #12a2b5;
+  background-color:#12a2b5;
+  outline:none;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+}
+#cb:hover{
+  background:white;
+  color:#12a2b5;
+}
+#ab{
+  color:white;
+  width:230px;
+  margin: 1.5rem auto 0 60px;
+  padding: 10px 20px 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border:1.3px solid #12a2b5;
+  background-color:#12a2b5;
+  outline:none;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+}
+#ab:hover{
+  background:white;
+  color:#12a2b5;
+}
+
+.adminlogin{
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  height: 350px;
+  width: 350px;
+  background-color: white;
+  box-shadow: 5px 5px 25px black;
+}
+
+.viewbill{
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 7px;
+  height: 135px;
+  width: 350px;
+  background-color: white;
+  box-shadow: 5px 5px 25px black;
+  border:3.3px solid #12a2b5;
+}
+
+#vb{
+  color:white;
+  width:230px;
+  margin: 1.5rem auto 0 60px;
+  padding: 10px 20px 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  border:1.3px solid #12a2b5;
+  background-color:#12a2b5;
+  outline:none;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+}
+#vb:hover{
+  background:white;
+  color:#12a2b5;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\invoicestyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Jost|Montserrat|Josefin Sans"/>
+    <title>Document</title>
+</head>
+<body background="images/apr.png" style="background-size: 100% 100%; background-repeat: no-repeat; background-attachment: fixed;">
+    <div class="billdiv" style="display: block;position: absolute;left: 50%;top:30px;transform: translate(-50%);height: 1080px;width: 700px;background-color: white;box-shadow: 1px 1px 5px black;">
+        <div class="billfrom">
+            <h4>BILL FROM:</h4>
+            <p>Grocers.co</p>
+            <p>Senapati Bapat Marg,</p>
+            <p>Dadar West,</p>
+            <p>Mumbai</p>
+            <p>Phone: +91 22 4232 4232</p>
+            <p>gajodar@vit.edu.in</p>
+        </div>
+        <div style="position:absolute;top:0px;left:390px;"><h1 id="logo1">grocers</h1></div>
+        <p style="position:absolute;top:225px;left:125px;font-weight: bolder;color: lightgrey;">________________________________________________________</p>
+
+        <div class="billto">
+            <h4>BILL TO:</h4>
+            <p><%= heisenberg %></p>
+            <p><%= addressarray[0] %>, <%= addressarray[1] %></p>
+            <p><%= addressarray[2] %>,</p>
+            <p><%= addressarray[3] %>, <%= addressarray[4] %></p>
+            <p>Phone: +91 <%= heisenbergkanumber %></p>
+            <p><%= heisenbergkaemail %></p>
+        </div>
+
+        <div class="invoicetext" style="position: absolute;top:285px;left:380px;">
+            <table style="font-family:'Monterrat'">
+                <tr>
+                  <td style="font-family:'Montserrat';font-size: 0.7rem;padding-right: 20px;"><strong>INVOICE #</strong></td>
+                  <td style="font-family:'Montserrat';font-size: 0.8rem;text-align: right;"><%= heisenberg %></td>
+                </tr>
+                <tr>
+                  <td style="font-family:'Montserrat';font-size: 0.7rem;padding-right: 20px;"><strong>ORDER NO</strong></td>
+                  <td style="font-family:'Montserrat';font-size: 0.8rem;text-align: right;">108837541</td>
+                </tr>
+                <tr>
+                  <td style="font-family:'Montserrat';font-size: 0.7rem;padding-right: 20px;"><strong>INVOICE DATE</strong></td>
+                  <td style="font-family:'Montserrat';font-size: 0.8rem;text-align: right;"><%= monthn %> <%= daten %>,<%= yearn %></td>
+                </tr>
+                <tr>
+                  <td style="font-family:'Montserrat';font-size: 0.7rem;padding-right: 20px;"><strong>AMOUNT DUE</strong></td>
+                  <td style="font-family:'Montserrat';font-size: 0.8rem;text-align: right;"><%= totn %></td>
+                </tr>
+              </table>
+        </div>
+
+        <div class="billdata" style="position: absolute;top:445px;left:80px;height:280px;background-color:#ecffe6;overflow:auto;">
+          <table style="font-family:'Monterrat';">
+            <tr style="background-color:#cdffba">
+              <th style="font-family:'Montserrat';font-size: 0.8rem;width:20px">Sr.no</th>
+              <th style="font-family:'Montserrat';font-size: 0.8rem;width:280px;">Item</th>
+              <th style="font-family:'Montserrat';font-size: 0.8rem;width:80px;">Quantity</th>
+              <th style="font-family:'Montserrat';font-size: 0.8rem;width:100px;">Line cost</th>
+            </tr>
+          <% for(var i=0; i<allitemsboughtnow.length; i++){ %>
+            <tr style="background-color:#d8facc">
+              <td style="font-family:'Montserrat';font-size: 0.8rem;width:20px;text-align:center;padding-top: 15px;padding-bottom: 15px;"><%= i+1 %></td>
+              <td style="font-family:'Montserrat';font-size: 0.8rem;width:280px;padding-top: 15px;padding-bottom: 15px;"><%= allitemsboughtnow[i].Product %></td>
+              <td style="font-family:'Montserrat';font-size: 0.8rem;width:80px;text-align:center;padding-top: 15px;padding-bottom: 15px;"><%= allitemsboughtnow[i].Quantity %></td>
+              <td style="font-family:'Montserrat';font-size: 0.8rem;width:100px;text-align:center;padding-top: 15px;padding-bottom: 15px;"><%= allitemsboughtnow[i].Price %></td>
+            </tr>
+          <% } %>
+          </table>
+        </div>
+        <div class="nome">
+          <h4>Notes/Memo:</h4>
+          <p style="width:300px">Free Shipping with 30-day money-back guarantee</p>
+        </div>
+
+        <div class="invoicetext" style="position: absolute;top:755px;left:385px;">
+          <table style="font-family:'Monterrat';">
+              <tr>
+                <td style="font-family:'Montserrat';font-size: 0.9rem;padding-right: 110px;"><strong>Subtotal</strong></td>
+                <td style="font-family:'Montserrat';font-size: 1rem;text-align: right;">र<%= amn %></td>
+              </tr>
+              <tr>
+                <td style="font-family:'Montserrat';font-size: 0.9rem;padding-right: 110px;"><strong>Tax(13.0%)</strong></td>
+                <td style="font-family:'Montserrat';font-size: 1rem;text-align: right;">र<%= taxn %></td>
+              </tr>
+              <tr>
+                <td style="font-family:'Montserrat';font-size: 0.9rem;padding-right: 110px;"><strong>Total</strong></td>
+                <td style="font-family:'Montserrat';font-size: 1rem;text-align: right;">र<%= totn %></td>
+              </tr>
+            </table>
+        </div>
+        <p style="position:absolute;top:875px;left:125px;font-weight: bolder;color: lightgrey;">________________________________________________________</p>
+        <button style="position:absolute;top: 905px;left:205px;" type="submit" formaction="/done">Go to shopping</button>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/897232bf16.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+html{
+    font-size: 20px;
+}
+.pdiv{
+    display: block;
+    /* display: none; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 450px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 2px 2px 15px black;
+}
+h1{
+    color: #9eb528;
+    font-size: 2.2rem;
+    font-family: "Poppins";
+    cursor: pointer;
+    position: absolute;
+    left: 70px;
+    top: 16px;
+    margin-top:12px;
+    text-shadow: 1px 1px 5px #f5f1a8;
+}
+
+.scrolldiv{
+    font-family: "Montserrat";
+    overflow:auto;
+    position:absolute;
+    left:25px;
+    top:115px;
+    height:300px;
+    width:550px;
+    background-color:white;
+}
+
+.onecard{
+    font-family: "Montserrat";
+    margin-bottom: 10px;
+    padding:2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: 
+    #e5fddc;
+    width:510px;
+    border: 1px solid #28961e;
+    border-radius: 5px;
+}
+table, th, td {
+    border: 1px solid #315721;
+    border-collapse: collapse;
+}

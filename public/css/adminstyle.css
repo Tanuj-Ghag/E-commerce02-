@@ -1,0 +1,242 @@
+body {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+html{
+    font-size: 20px;
+}
+.firstdiv{
+    display: block;
+    /* display: none; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 470px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 2px 2px 15px black;
+}
+h1{
+    color: #9eb528;
+    font-size: 3rem;
+    font-family: "Poppins";
+    cursor: pointer;
+    position: absolute;
+    left: 180px;
+    top: 0px;
+    margin-top:20px;
+    text-shadow: 1px 1px 5px #f5f1a8;
+}
+
+button{
+    color:white;
+    font-family:"Montserrat";
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 15px 20px 12px 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width:500px;
+    height:60px;
+    cursor: pointer;
+    border:1.7px solid #9eb528;
+    background-color:#9eb528;
+    outline:none;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover{
+    background:white;
+    color:#9eb528;
+}
+i{
+    margin-right: 20px;
+    margin-top: 3px;
+}
+.fourthdiv{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 460px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 2px 2px 15px black;
+}
+.cataddp {
+    position: absolute;
+    left: 40px;
+    top: 110px;
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    font-weight: 800;
+    cursor: default;
+    color: #70811d;
+}
+
+#cataddo {
+    position: absolute;
+    left: 315px;
+    top: 121px;
+    padding: 6px;
+    width: 220px;
+    font-size: 1.4rem;
+    border: 1px solid #70811d;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+option{
+    font-size: 0.9rem;
+    padding: 3px;
+    color:#70811d;
+}
+
+.subcataddp {
+    position: absolute;
+    left: 40px;
+    top: 160px;
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    font-weight: 800;
+    cursor: default;
+    color: #70811d;
+}
+
+#subcataddo1 {
+    position: absolute;
+    left: 315px;
+    top: 171px;
+    padding: 6px;
+    width: 220px;
+    font-size: 1.4rem;
+    border: 1px solid #70811d;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+#subcataddo2 {
+    position: absolute;
+    left: 315px;
+    top: 171px;
+    padding: 6px;
+    width: 220px;
+    font-size: 1.4rem;
+    border: 1px solid #70811d;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+#subcataddo1 {
+    position: absolute;
+    left: 315px;
+    top: 171px;
+    padding: 6px;
+    width: 220px;
+    font-size: 1.4rem;
+    border: 1px solid #70811d;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+#subcataddo2 {
+    position: absolute;
+    left: 315px;
+    top: 171px;
+    padding: 6px;
+    width: 220px;
+    font-size: 1.4rem;
+    border: 1px solid #70811d;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+#subcataddo3 {
+    position: absolute;
+    left: 315px;
+    top: 171px;
+    padding: 6px;
+    width: 220px;
+    font-size: 1.4rem;
+    border: 1px solid #70811d;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+#subcataddo4 {
+    position: absolute;
+    left: 315px;
+    top: 171px;
+    padding: 6px;
+    width: 220px;
+    font-size: 1.4rem;
+    border: 1px solid #70811d;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+
+.proname {
+    position: absolute;
+    left: 40px;
+    top: 210px;
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    font-weight: 800;
+    cursor: default;
+    color: #70811d;
+}
+
+#Proaddname {
+    position: absolute;
+    left: 315px;
+    top: 221px;
+    padding: 6px;
+    width: 220px;
+    font-size: 1.4rem;
+    border: 1px solid #70811d;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+
+.proprice {
+    position: absolute;
+    left: 40px;
+    top: 260px;
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    font-weight: 800;
+    cursor: default;
+    color: #70811d;
+}
+
+#Proaddprice {
+    position: absolute;
+    left: 315px;
+    top: 271px;
+    padding: 6px;
+    width: 220px;
+    font-size: 1.4rem;
+    border: 1px solid #70811d;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}
+
+.proquantity {
+    position: absolute;
+    left: 40px;
+    top: 310px;
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    font-weight: 800;
+    cursor: default;
+    color: #70811d;
+}
+
+#Proaddquantity {
+    position: absolute;
+    left: 315px;
+    top: 321px;
+    padding: 6px;
+    width: 220px;
+    font-size: 1.4rem;
+    border: 1px solid #70811d;
+    border-radius: 3px;
+    font-size: 0.8rem;
+}

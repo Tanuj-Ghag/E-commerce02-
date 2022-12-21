@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\transpage.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Jost|Montserrat|Josefin Sans"/>
+    <title>Document</title>
+</head>
+<body background="images/apr.png">
+    <div class="pdiv">
+        <h1><%= varchnaav2 %></h1>
+        <div class="scrolldiv">
+            
+            <% for(var i=0; i<alldocs.length; i++){ %>
+                <div class="onecard">
+                    <p style="font-family:'Montserrat';font-size: 0.8rem; margin-bottom:-4px;"><strong>Name of Customer: </strong><%= alldocs[i][0] %></p>
+                    <p style="font-family:'Montserrat';font-size: 0.8rem; margin-bottom:-4px;"><strong>Delivery Address: </strong><%= alldocs[i][1] %></p>
+                    <p style="font-family:'Montserrat';font-size: 0.8rem; margin-bottom:-2px;"><strong>Products Bought: </strong></p>
+                    <table style="font-family:'Montserrat';margin-bottom: 15px;">
+                        <tr style="font-family:'Montserrat'">
+                            <th style="font-family:'Montserrat';width:250px;text-align: left;font-size: 0.8rem;">Item</th>
+                            <th style="font-family:'Montserrat';width:120px;text-align: left;font-size: 0.8rem;">Quantity</th>
+                            <th style="font-family:'Montserrat';width:80px;text-align: left;font-size: 0.8rem;">Price</th>
+                        </tr>
+                        <% for(var j=0; j<alldocs[i][2].length; j++){ %>
+                            <tr style="font-family:'Montserrat'">
+                                <td style="font-family:'Montserrat';font-size: 0.8rem;"> <%= alldocs[i][2][j].Product %></td>
+                                <td style="font-family:'Montserrat';font-size: 0.8rem;"> <%= alldocs[i][2][j].Quantity %></td>
+                                <td style="font-family:'Montserrat';font-size: 0.8rem;"> र <%= alldocs[i][2][j].Price %></td>
+                            </tr>
+                        <% } %>
+                    </table>
+                </div>
+            <% } %>
+            
+        </div>
+    </div>
+
+    
+
+    <script src="js\adminjs.js"></script>
+    <script src="https://kit.fontawesome.com/897232bf16.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

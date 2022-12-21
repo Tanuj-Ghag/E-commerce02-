@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\adminstyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Jost|Montserrat|Josefin Sans"/>
+    <title>Document</title>
+</head>
+<body background="images/apr.png">
+    <div class="firstdiv">
+        <h1><%= varchnaav %></h1>
+        <form action="/viewhist" method="post"><button style="position:absolute;top:100px;left:50px;" type="submit"><i class="fa-solid fa-basket-shopping"></i>View Transaction Histories</button></form>
+        <form action="/viewcusts" method="post"><button style="position:absolute;top:185px;left:50px;"><i class="fa-solid fa-user"></i>View Customer Details</button></form>
+        <form action="/viewprods" method="post"><button style="position:absolute;top:270px;left:50px;"><i class="fa-solid fa-eye"></i>View All Products</button></form>
+        <button style="position:absolute;top:355px;left:50px;" onclick="addtodb()"><i class="fa-solid fa-plus"></i>Add Item to Store</button>
+    </div>
+
+    <div class="fourthdiv">
+        <h1 style="margin-top:10px;">Grocers</h1>
+        <form action="/adminadditem" method="post">
+            <p class="cataddp">Select Category for Product:</p>
+            <select name="categoryadd" id="cataddo" onChange="update()">
+                <option value="dairy">Dairy,Bread & Eggs</option>
+                <option value="snacks">Breakfast & Instant food</option>
+                <option value="pharma">Pharma & Wellness</option>
+                <option value="home">Cleaning & Household</option>
+                <option value="fruits" disabled>Fruits & Vegies</option>
+                <option value="bakery" disabled>Bakery & Biscuits</option>
+                <option value="juice" disabled>Soft Drinks & Juices</option>
+            </select>
+
+            <p class="subcataddp">Select Sub-Category:</p>
+            <select name="subcategoryadd1" id="subcataddo1">
+                <option value="Milk">Milk</option>
+                <option value="Bread">Bread & Pav</option>
+                <option value="Breakfast">Breakfast Cereal</option>
+                <option value="Eggs">Eggs</option>
+                <option value="Curd">Curd & Yogurt</option>
+                <option value="Butter">Butter & Cheese</option>
+            </select>
+            <select name="subcategoryadd1" id="subcataddo2">
+                <option value="masks">Mask & Sanitizers</option>
+                <option value="handwash">Handwash</option>
+                <option value="femine">Feminine Care</option>
+                <option value="wound">Wound & Pain relief</option>
+                <option value="needs">Pharma needs</option>
+                <option value="oth">Others</option>
+            </select>
+            <select name="subcategoryadd1" id="subcataddo3">
+                <option value="kitchen">Kitchen & Dining</option>
+                <option value="cleaning">Cleaning Tools</option>
+                <option value="electricals">Electrical Accesories</option>
+                <option value="disinfictants">Disinfictants & more</option>
+                <option value="home">Home Essentials</option>
+                <option value="others">Others</option>
+            </select>
+            <select name="subcategoryadd1" id="subcataddo4">
+                <option value="chips">Chips & Crisps</option>
+                <option value="beverages">Beverages</option>
+                <option value="sauces">Sauces & Spreads</option>
+                <option value="sweets">Sweet Tooth</option>
+                <option value="instant">Instant foods</option>
+                <option value="others3">Others</option>
+            </select>
+
+            <p class="proname">Enter Product Name:</p>
+            <input type="text" name="Proaddname" id="Proaddname">
+
+            <p class="proprice">Enter Price per Quantity:</p>
+            <input type="text" name="Proaddprice" id="Proaddprice">
+
+            <p class="proquantity">Enter Quantity:</p>
+            <input type="text" name="Proaddquantity" id="Proaddquantity">
+
+            <button type="submit" style="position:absolute;top:350px;left:210px;width:190px;height:50px;border-radius: 25px;padding-top:8px;">
+                <i class="fa-solid fa-plus" style="margin-right: 10px;margin-top: 3px;"></i>Add Item
+            </button>
+        </form>
+    </div>
+
+    <script src="js\adminjs.js"></script>
+    <script src="https://kit.fontawesome.com/897232bf16.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
